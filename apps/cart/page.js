@@ -5,8 +5,7 @@ import Dd from '../../components/footer/cc';
 import { removeFromCart } from '@/app/Redux/atcSlice';
 import { useDispatch,useSelector } from 'react-redux';
 import Counter from '@/app/components/Counter';
-// import { selectTotalPrice } from '@/app/Redux/Store';
-// import { SelectItemTotal } from '@/app/Redux/Store';
+
 
 const Cartpage = () => {
     const dispatch=useDispatch();
